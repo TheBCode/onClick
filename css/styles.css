@@ -1,3 +1,5 @@
+@import "oc_variables.css";
+
 /* Css reset styling */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -46,8 +48,8 @@ table {
 
 /* Site wide General Styling */
 .btn-outline-primary {
-    border-color: #39b54a;
-    color: #39b54a;
+    border-color: var(--oc-main-color);
+    color: var(--oc-main-color);
 }
 /* End site wide general styling */
 
@@ -56,3 +58,51 @@ nav ul li {
     font-size: 24px;
 }
 /* End of navbar styling */
+
+                /* Homepage styling */
+
+/* Jumbotron styling */
+
+.jumbotron {
+    background: var(--oc-main-bg-color);
+    color: var(--oc-white);
+}
+/* End of jumbotron styling*/
+
+/* Quick view cards */
+.card-body a:visited {
+    color: var(--oc-main-bg-color)
+}
+
+.card-body a:hover {
+    color: var(--oc-main-color);
+    text-decoration: none;
+}
+
+/* End of quick view cards */
+
+/* Text styling */
+.oc-span {
+    color: var(--oc-main-color);
+}
+/* End of text styling */
+
+                /* End of homepage styling*/
+
+/* Media queries */
+@media (max-width: 700px) {
+    .jumbotron {
+        background: var(--oc-black);
+        color: var(--oc-white);
+    }
+}
+@media (max-width: 450px) {
+    .jumbotron {
+        background: var(--oc-white);
+        color: #000;
+    }
+  .small-screen {
+      color: var(--oc-main-color);
+  }
+}
+/* End of media queries*/
