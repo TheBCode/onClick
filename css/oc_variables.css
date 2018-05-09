@@ -1,0 +1,14 @@
+
+:root {
+    /* Color variables*/
+    --oc-main-color: #598069;
+    --oc-main-bg-color: #535353;
+    --oc-white: #FEFEFE;
+    --oc-black: #000;
+    /* End of color variables*/
+
+    /* Sizing variables */
+    --oc-min-view-width: 400px;
+    /* End of sizing variables */
+
+}
