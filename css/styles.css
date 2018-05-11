@@ -1,50 +1,5 @@
 @import "oc_variables.css";
 
-/* Css reset styling */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-/* End of css reset styling*/
 
 /* Site wide General Styling */
 .btn-outline-primary {
@@ -88,6 +43,34 @@ nav ul li {
 /* End of text styling */
 
                 /* End of homepage styling*/
+
+                /* About Page styles */
+
+#aboutUs{
+    color: var(--oc-white);
+    font-size: 2.3em;
+    background-color: var(--oc-main-bg-color);
+    letter-spacing: 1.4px;
+    text-align: justify;
+}
+h4{
+    margin-bottom:1em;
+}
+.personnel{
+    font-size: 1.55em;
+}
+.name{
+    font-size: .95em;
+}
+.card{
+    background-color: var(--oc-alt-bg-color);
+}
+.bio{
+    font-size: .55em;
+    width:85%;
+    margin-left:2em,
+}
+/* End of about page */
 
 /* Media queries */
 @media (max-width: 700px) {
