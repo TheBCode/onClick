@@ -10,6 +10,21 @@ body{
     border-color: var(--oc-main-color);
     color: var(--oc-main-color);
 }
+
+.form-control {
+    border: 0px solid;
+    border-bottom:1px solid;
+    border-bottom-color: var(--oc-green);
+}
+
+btn-outline-primary{
+    border-color: var(--oc-green);
+}
+
+.btn-outline-primary:hover{
+    background-color: var(--oc-green);
+    border-color: var(--oc-green);
+}
 /* End site wide general styling */
 
 /* Navbar styling */
@@ -82,7 +97,7 @@ h4{
 .name{
     font-size: .95em;
 }
-.card{
+.card{ 
     background-color: var(--oc-alt-bg-color);
 }
 .bio{
@@ -90,6 +105,9 @@ h4{
     width:85%;
     margin-left:2em;
 }
+
+
+
 /* End of about page */
 
 /* Media queries */
